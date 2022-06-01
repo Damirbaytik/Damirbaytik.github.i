@@ -1,0 +1,321 @@
+body{
+	max-width: 100%;
+	width: device-width;
+	margin: 0 auto;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+span{
+	display: inline-block;
+}
+
+html{overflow-y: scroll;}
+{
+min-height: 100%;
+overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+margin: 0;
+}
+
+
+/* Container */
+.container {
+	width: 100%;
+	height: 70px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Header */
+.header {
+	max-width: 1920px;
+	min-width: 1024px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 30px;
+}
+
+
+.header_name {
+	font-weight: 700;
+	color: black;
+	padding-top: 20px;
+	padding-left: 150px;
+	font-size: 23px;
+}
+
+
+.header_logo {
+	position: absolute;
+	top: 8px;
+	left: 90px
+}
+
+.nav {
+	padding-top: 20px;
+	font-size: 23px;
+	display: flex;
+	align-items: center;
+}
+
+
+.ml-auto {
+	margin-left: auto;
+	display: inline-flex;
+}
+
+
+.nav_link {
+	font-weight: 700;
+	color: #707070;
+	position: relative;
+	text-decoration: none;
+	display: flex;
+	margin: 0 45px;
+
+	transition: color .2s linear;
+}
+
+.nav_link:after {
+	opacity: 0;
+	content: "";
+	width: 100%;
+	height: 3px;
+
+	background-color: black;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	transition: opacity .3s linear;
+}
+
+.nav_link:hover:after {
+	opacity: 1;
+}
+
+.profile {
+	padding-top: 18px;
+}
+
+/* Intro */
+.intro{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient( to bottom, #F0E68C 60%, #FFFACD);
+	background-size: cover;
+}
+
+.mach {
+	border-radius: 9px;
+	width: 330px;
+	height: 430px;
+	background-color: white;
+	position: absolute;
+	top: 150px;
+	left: 90px;
+
+	transition: box-shadow .3s linear;
+}
+
+.mach:hover {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.reiting {
+	width: 120px;
+	height: 130px;
+	position: absolute;
+	top: 480px;
+	left: 105px;
+}
+
+.otzyv {
+	font-size: 11.2px;
+    font-weight: 700;
+    color: #8a8d93;
+}
+
+.non {
+	font-size: 11.2px;
+    font-weight: 700;
+	text-decoration: line-through;
+	color: #8a8d93;
+}
+
+.nan {
+	font-size: 11.2px;
+    font-weight: 1000;
+	color: black;	
+}
+
+.machi {
+	border-radius: 9px;
+	width: 330px;
+	height: 430px;
+	background-color: white;
+	position: absolute;
+	top: 150px;
+	left: 530px;
+
+	transition: box-shadow .3s linear;
+}
+
+.kamaz2-txt {
+	top: -20px;
+	font-size: 13px;
+	color: black;
+	position: absolute;
+}
+
+.check {
+	line-height: 35px;
+}
+
+.check2 {
+	line-height: 35px;
+	width: 140px;
+}
+
+.kamaz1-txt {
+	top: -20px;
+	font-size: 13px;
+	color: black;
+	position: absolute;
+}
+
+.reiting2 {
+	width: 120px;
+	height: 130px;
+	position: absolute;
+	top: 480px;
+	left: 545px;
+}
+
+.nan2 {
+	font-size: 13px;
+    font-weight: 700;
+}
+
+.non2 {
+	font-size: 11.2px;
+    font-weight: 700;
+	text-decoration: line-through;
+	color: #8a8d93;	
+}
+
+.otzyv2 {
+	font-size: 11.2px;
+    font-weight: 700;
+	color: #8a8d93;
+}
+
+
+.machi:hover {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.kamaz3-txt {
+	top: 5px;
+	left: 15px;
+	font-size: 15px;
+	color: black;
+	position: absolute;
+}
+
+.reiting3 {
+	width: 140px;
+	height: 130px;
+	position: absolute;
+	top: 458px;
+	left: 1000px;	
+}
+
+.machine {
+	border-radius: 9px;
+	width: 330px;
+	height: 430px;
+	background-color: white;
+	position: absolute;
+	top: 150px;
+	left: 1000px;
+
+	transition: box-shadow .3s linear;	
+}
+
+
+.machine:hover {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.nan3 {
+	font-size: 15px;
+    font-weight: 700;
+}
+
+.non3 {
+	font-size: 11.2px;
+    font-weight: 700;
+	text-decoration: line-through;
+	color: #8a8d93;	
+}
+
+.otzyv3 {
+	font-size: 11.2px;
+    font-weight: 700;
+	color: #8a8d93;
+}
+
+.check3 {
+	padding-left: 15px;
+	line-height: 35px;
+	width: 160px;
+}
+
+.star3 {
+	padding-top: 25px;
+	padding-left: 15px;
+}
+
+.kamazz {
+	width: 300px;
+	height: 200px;
+	padding-left: 30px;
+	padding-top: 35px;
+}
+
+.ecscavator {
+	width: 300px;
+	height: 200px;
+	padding-left: 25px;
+	padding-top: 35px;
+}
+
+.buldozer {
+	width: 250px;
+	height: 200px;
+	padding-top: 50px;
+	padding-left: 80px;
+}
